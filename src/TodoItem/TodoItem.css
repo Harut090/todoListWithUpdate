@@ -1,0 +1,56 @@
+
+.TodoItem{
+    width: 95%;
+    border: 1px solid grey;
+    border-radius:20px 0px 20px 0px;
+    margin:5px auto;
+   
+   
+}
+
+.TodoItem li{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.todoSpan{
+    text-align:left;
+    color:white;
+    font-size:0.9rem;
+    width:60%;
+}
+
+.editForm{
+    display:flex;
+    justify-content:space-between;
+    width:90%;
+    border-radius: 15px;
+    border: 2px solid grey;
+    margin: 5px auto;
+    padding:5px;
+}
+
+.editFormTodo{
+    display: block;
+     width:76%;
+     border-radius: 15px;
+     border: 2px solid grey;
+     margin: 5px 0;
+}
+
+.editButton:hover{
+    color: white;
+    background-color:rgb(54, 52, 52);
+}
+
+button{
+    padding:0px 10px;
+}
+
+.checked{
+    text-decoration-line:line-through;
+    color: red;
+    background-color:rgb(43, 48, 43);
+}

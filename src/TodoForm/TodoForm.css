@@ -1,0 +1,39 @@
+.TodoForm{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin:1rem auto;
+    background-color:rgb(130, 133, 136);
+}
+
+.todoFormInput{
+    display: block;
+     width:76%;
+     border-radius: 15px;
+     border: 2px solid grey;
+     margin: 5px 0;
+     padding:10px;
+}
+
+.todoFormInput::placeholder{
+    color: grey;
+    font-style: italic;
+    padding:10px;
+    font-size:1rem
+}
+
+.submitItem{
+    border: none;
+    margin: 5px 0;
+    padding:10px;
+    width:20%;
+    font-size:1rem;
+    color: grey;
+    border-radius: 10px;
+}
+
+.submitItem:hover{
+    background-color:black;
+    color: white;
+}
+
